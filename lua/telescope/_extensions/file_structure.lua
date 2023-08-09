@@ -62,6 +62,10 @@ local file_structure = function(opts)
                     entry_maker = opts.entry_maker or make_entry.gen_from_lsp_symbols(opts),
                 },
                 previewer = conf.qflist_previewer(opts),
+                sorter = conf.prefilter_sorter {
+                    tag = "symbol_type",
+                    sorter = conf.generic_sorter(opts),
+                },
                 push_cursor_on_edit = true,
                 push_tagstack_on_edit = true,
             })
