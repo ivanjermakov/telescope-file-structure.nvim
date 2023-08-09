@@ -17,7 +17,7 @@ use "ivanjermakov/telescope-file-structure.nvim"
 ## Configuration
 
 ```lua
-require("ivanjermakov/telescope-file-structure.nvim").setup()
+require("telescope").load_extension "file_structure"
 ```
 
 ## Usage
