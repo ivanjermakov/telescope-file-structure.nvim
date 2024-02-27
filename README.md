@@ -1,5 +1,9 @@
 # telescope-file-structure.nvim
 
+> I made this plugin before I found 
+[aerial.nvim's telescope plugin](https://github.com/stevearc/aerial.nvim?tab=readme-ov-file#telescope).
+I recommend using it instead on this one. 
+
 [telescope.nvim]() plugin extension to provide file structure,
 similar to JetBrains' [project structure widget](https://www.jetbrains.com/help/idea/viewing-structure-of-a-source-file.html).
 
